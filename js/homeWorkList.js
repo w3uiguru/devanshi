@@ -43,8 +43,8 @@ const downloads = [
         date: "23/05/2020",
         description: "Moral stories grade 1",
         subject: subjects.NAC,
-        fileName: "",
-        actualLink: "",
+        fileName: "684_Stay Home Reader-grade 1.pdf",
+        actualLink: "http://mlzswakad.cloud9edu.in/frmViewDownload.aspx?fileName=684_Stay%20Home%20Reader-grade%201.pdf",
         downloadLink: getDownloadLink(subjectsCode.NAC),
         notes: ""
     }, {
