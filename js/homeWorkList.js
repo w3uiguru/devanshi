@@ -6,7 +6,8 @@ const subjectsCode = {
     COM: 'COM',
     EVS: 'EVS',
     ALL: 'ALL',
-    MAR: 'MAR'
+    MAR: 'MAR',
+    MIS: 'MIS'
 };
 
 const subjects = {
@@ -17,7 +18,8 @@ const subjects = {
     COM: 'Computer',
     EVS: 'EVS',
     ALL: 'ALL',
-    MAR: 'Marthi'
+    MAR: 'Marthi',
+    MIS: 'Miscellaneous'
 };
 
 const baseDownloadUrl = window.location.href + 'assets/pdf/class_first/';
