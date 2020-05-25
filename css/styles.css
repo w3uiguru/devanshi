@@ -1,3 +1,53 @@
 body {
     background: #f1f1f1;
 }
+
+.borderGradient {
+    padding: 8px 0;
+    border-width: 10px 0 0;
+    border-top-style: solid;
+    -o-border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+    border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+}
+
+#header {
+    background: #333;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+#homeWorkTableContiner {
+    width: 85%;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+}
+
+#homeWorkTableContiner h1 {
+    margin: 24px 0 16px 0;
+    padding: 0;
+    padding-bottom: 7px;
+    text-align: left;
+    line-height: 1.2;
+    white-space: normal;
+    text-transform: none;
+    letter-spacing: -0.8px;
+    font-weight: 700;
+    margin-top: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;;
+}
+
+footer:after {
+    content: "";
+    display: block;
+    height: 10px;
+    width: 100%;
+    background-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff);
+}
