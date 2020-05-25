@@ -20,7 +20,7 @@ const subjects = {
     MAR: 'Marthi'
 };
 
-const baseDownloadUrl = '/assets/pdf/class_first/';
+const baseDownloadUrl = window.location.href + '/assets/pdf/class_first/';
 
 const downLoadFolders = {
     NAC: baseDownloadUrl + 'non_academic/',
