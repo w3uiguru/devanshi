@@ -1,0 +1,23 @@
+{
+  "name": "devanshi_blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w3uiguru/devanshi.git"
+  },
+  "keywords": [],
+  "author": "Devanshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w3uiguru/devanshi/issues"
+  },
+  "homepage": "https://w3uiguru.github.io/devanshi",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
